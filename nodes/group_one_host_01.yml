@@ -1,0 +1,4 @@
+classes:
+  - group_one
+parameters:
+  group_one_host_01_has_this_var: true

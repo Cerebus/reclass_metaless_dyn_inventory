@@ -1,0 +1,4 @@
+storage_type: yaml_fs
+inventory_base_uri: .
+class_mappings: 
+  - \* all

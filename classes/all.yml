@@ -1,0 +1,4 @@
+parameters:
+  ansible_connection: local
+  inventory_vars: true
+

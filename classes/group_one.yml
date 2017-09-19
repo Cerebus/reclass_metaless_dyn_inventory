@@ -1,0 +1,9 @@
+parameters:
+  is_in_group_one: true
+  complex_var: 
+    - dir: /opt/gwaf/logs
+      sourcetype: gwaf
+      something_else:
+        - 1
+        - 2
+        - 3
