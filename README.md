@@ -10,6 +10,8 @@ or
 reclass-ansible -b <this_directory> --host group_one_host_01
 ```
 
+AWX_script.sh can be pasted in as a dynamic inventory script.
+
 # Differences from metaless_dyn_inventory:
 
 Reclass resolves all groupvars as hostvars, so list output will
