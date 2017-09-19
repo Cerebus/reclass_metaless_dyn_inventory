@@ -1,0 +1,29 @@
+{
+  "is_in_group_one": true,
+  "inventory_vars": true,
+  "group_one_host_01_has_this_var": true,
+  "complex_var": [
+    {
+      "something_else": [
+        1,
+        2,
+        3
+      ],
+      "sourcetype": "gwaf",
+      "dir": "/opt/gwaf/logs"
+    }
+  ],
+  "__reclass__": {
+    "node": "./group_one_host_01",
+    "name": "group_one_host_01",
+    "timestamp": "Mon Sep 18 20:53:03 2017",
+    "uri": "yaml_fs:///home/cerebus/reclass_metaless_dyn_inventory/nodes/./group_one_host_01.yml",
+    "environment": "",
+    "applications": [],
+    "classes": [
+      "all",
+      "group_one"
+    ]
+  },
+  "ansible_connection": "local"
+}
